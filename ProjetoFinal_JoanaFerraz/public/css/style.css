@@ -1,0 +1,31 @@
+.btn-dark{
+    --bs-btn-bg: darkred;
+    display: inline-block;
+    margin-right: 12px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+    color: darkred;
+}
+.navbar-brand{
+    color: darkred;
+}
+.tabela{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-img-top {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
